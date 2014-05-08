@@ -1,0 +1,269 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Radar 1.0.0\n"
+"POT-Creation-Date: 2014-04-25 21:39+0800\n"
+"PO-Revision-Date: 2014-04-25 21:46+0800\n"
+"Last-Translator: \n"
+"Language-Team: wphigh.com <wphigh@hotmail.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _x\n"
+
+#: ../404.php:16
+msgid "Not Found"
+msgstr "没有找到"
+
+#: ../404.php:20
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "在你的站点没有找到此内容，建议尝试下搜索。"
+
+#: ../comments.php:30
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "&ldquo;%2$s&rdquo; 有%1$s条评论"
+
+#: ../comments.php:53
+msgid "Comments are closed."
+msgstr "评论已经关闭。"
+
+#: ../comments.php:71
+msgid "Username"
+msgstr "用户名"
+
+#: ../comments.php:76
+msgid "Email"
+msgstr "邮箱"
+
+#: ../comments.php:81
+msgid "Website"
+msgstr "站点"
+
+#: ../comments.php:85
+msgctxt "type a comment"
+msgid "Comment"
+msgstr "评论"
+
+#: ../comments.php:85
+msgid "type a comment."
+msgstr "写评论。"
+
+#: ../footer.php:22
+msgid "Theme created by"
+msgstr "主题设计： "
+
+#: ../inc/bootstrap/class-bootstrap-init.php:170 ../inc/template-tags.php:252
+msgid "Read more"
+msgstr "阅读全文"
+
+#: ../inc/bootstrap/class-bootstrap-nav-walker.php:253
+msgid "Add a menu"
+msgstr "添加菜单"
+
+#: ../inc/bootstrap/class-bootstrap.php:139
+msgid "Toggle Dropdown"
+msgstr "切换下拉菜单"
+
+#: ../inc/bootstrap/class-bootstrap.php:186
+msgid "Toggle navigation"
+msgstr "切换导航"
+
+#: ../inc/class-back-compat.php:37
+#, php-format
+msgid ""
+"%s requires at least WordPress version %s. You are running version %s. "
+"Please upgrade and try again."
+msgstr "%s 至少要求WordPress版本为 %s. 当前的版本为 %s. 请升级再尝试激活."
+
+#: ../inc/class-theme-framework.php:79
+msgid "Top primary menu"
+msgstr "顶部主菜单"
+
+#: ../inc/class-theme-framework.php:113
+msgid "Sidebar"
+msgstr "侧边栏"
+
+#: ../inc/class-theme-framework.php:115
+msgid "Additional sidebar that appears on the right."
+msgstr "在右边显示侧边栏内容。"
+
+#: ../inc/class-theme-framework.php:124
+msgid "Footer Widget Area"
+msgstr "底部小工具"
+
+#: ../inc/class-theme-framework.php:126
+msgid "Appears in the footer section of the site."
+msgstr "在站点底部显示。"
+
+#: ../inc/class-theme-framework.php:197
+#, php-format
+msgid "Page %s"
+msgstr "页面 %s"
+
+#: ../inc/featured-content/class-featured-content.php:430
+#: ../inc/featured-content/class-featured-content.php:432
+msgctxt "featured content description"
+msgid "tag"
+msgstr "标签"
+
+#: ../inc/featured-content/class-featured-content.php:436
+msgid "Featured Content"
+msgstr "特色内容"
+
+#: ../inc/featured-content/class-featured-content.php:437
+#, php-format
+msgid ""
+"Use the %s to feature your posts. You can change this to a tag of your "
+"choice; if no posts match the tag, Nothing will be displayed."
+msgstr "使用 %s 关联文章。你可以自定义标签。如果没有文章匹配该标签，将不显示。"
+
+#: ../inc/featured-content/class-featured-content.php:461
+msgid "Tag Name"
+msgstr "标签名"
+
+#: ../inc/featured-content/class-featured-content.php:466
+msgid "Quantity"
+msgstr "数量"
+
+#: ../inc/featured-content/class-featured-content.php:471
+msgid "Don&rsquo;t display tag on front end."
+msgstr "不显示该标签链接。（如：不在标签云中显示）"
+
+#: ../inc/template-tags.php:324
+msgid "Sticky"
+msgstr "置顶文章"
+
+#: ../inc/template-tags.php:364
+msgid "Categories"
+msgstr "分类目录"
+
+#: ../inc/template-tags.php:388
+msgid "Tags"
+msgstr "标签"
+
+#: ../inc/template-tags.php:414
+#, php-format
+msgid "Published In %s"
+msgstr "附加到 %s"
+
+#: ../inc/template-tags.php:443
+msgid "Edit This"
+msgstr "编辑"
+
+#: ../inc/template-tags.php:491
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: ../inc/template-tags.php:492
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: ../inc/template-tags.php:499 ../inc/template-tags.php:607
+msgid "Posts navigation"
+msgstr "文章导航"
+
+#: ../inc/template-tags.php:529
+msgid "Pages:"
+msgstr "页码："
+
+#: ../inc/template-tags.php:557
+msgid "Post navigation"
+msgstr "文章导航"
+
+#: ../inc/template-tags.php:563
+msgid "&larr; Older"
+msgstr "&larr; 上一篇"
+
+#: ../inc/template-tags.php:569
+msgid "Newer &rarr;"
+msgstr "下一篇 &rarr;"
+
+#: ../inc/template-tags.php:661
+#, php-format
+msgid "Search Results for: %s"
+msgstr "搜索结果： %s"
+
+#: ../inc/template-tags.php:666
+#, php-format
+msgid "All posts by %s"
+msgstr "%s 发布的所有文章"
+
+#: ../inc/template-tags.php:675
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "每日归档： %s"
+
+#: ../inc/template-tags.php:678
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "每月归档： %s"
+
+#: ../inc/template-tags.php:678
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "Y年m月 "
+
+#: ../inc/template-tags.php:681
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "每年归档： %s"
+
+#: ../inc/template-tags.php:681
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y年"
+
+#: ../inc/template-tags.php:684
+msgid "Archives"
+msgstr "归档"
+
+#: ../inc/template-tags.php:696
+msgid " Archives: "
+msgstr "归档："
+
+#: ../page-templates/full-width.php:10
+msgid "Full Width Page"
+msgstr "全宽页面"
+
+#: ../parts/content-none.php:13
+msgid "Nothing Found"
+msgstr "没有找到"
+
+#: ../parts/content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "准备发布第一篇文章？<a href=\"%1$s\">点击开始</a>。"
+
+#: ../parts/content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "很抱歉，没有找到你搜索的内容，请尝试使用其它关键词。"
+
+#: ../parts/content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "似乎我们没有找到你所需的， 也许搜索能够帮到你。"
+
+#: ../searchform.php:2 ../searchform.php:3
+msgctxt "label"
+msgid "Search for:"
+msgstr "搜索："
+
+#: ../searchform.php:3
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "搜索 &hellip;"
+
+#: ../searchform.php:5
+msgctxt "submit button"
+msgid "Search"
+msgstr "搜索"

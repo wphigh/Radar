@@ -1,0 +1,93 @@
+/*
+Theme Name: Radar
+Description: Adds support for languages written in a Right To Left (RTL) direction.
+It's easy, just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+See http://codex.wordpress.org/Right_to_Left_Language_Support
+*/
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+#menu-primary .menu-item .glyphicon {
+	text-align: right;
+}
+
+@media screen and (max-width: 767px) {		
+	.navbar-nav .dropdown-menu,
+	.navbar-nav .dropdown-submenu {
+		margin-right: 20px;
+	}
+}
+
+@media screen and (min-width: 768px) {	
+	.navbar-nav .dropdown-submenu>.dropdown-menu {
+		right: auto;
+		left: 100%;
+		margin-right: -1px;
+	}	
+	
+	.navbar-nav .dropdown-submenu>a:after {
+		float: left;
+		border-width: 5px 0 5px 5px;
+		border-left-color: #ccc;
+		margin-left: -10px;
+	}
+}
+
+blockquote.alignleft,
+img.alignleft {
+	margin: 7px  7px 24px;
+}
+
+.wp-caption.alignleft {
+	margin: 7px 0 7px 14px;
+}
+
+blockquote.alignright,
+img.alignright {
+	margin: 7px 24px 7px 0;
+}
+
+.wp-caption.alignright {
+	margin: 7px 14px 7px 0;
+}
+
+.wp-caption-text ,
+.gallery-caption {
+	padding-left: 10px;
+}
+
+.entry-summary .read-more {
+	float: left;
+}
+
+.entry-meta .caret {
+	margin-right: 5px;
+	margin-left: 0;
+}
+
+.meta-post-format {
+	right: -15px;
+}
+
+.format-quote .entry-content blockquote {
+	border-left: none;
+	border-right: 5px solid #d2850b;
+}
+
+.widget ul li .glyphicon{
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+.comments-title .glyphicon-comment {
+	margin-left: 10px;
+}
+
+.comment-list .avatar {
+	right: -12px;
+}
