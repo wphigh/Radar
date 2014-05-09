@@ -27,4 +27,6 @@ See http://www.wphigh.com/portfolio/radar
 See http://www.wphigh.com/portfolio/radar
 
 == Changelog ==
+
+* Release in May 8, 2014.
  
