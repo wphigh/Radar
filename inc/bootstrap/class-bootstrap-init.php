@@ -194,10 +194,6 @@ class Wphigh_Bootstrap_Init extends Wphigh_Bootstrap_Basic {
 	public function comment_class( $classes ) {
 		if ( in_array( 'pingback', $classes ) ) {
 			$classes[] = 'bg-info';
-		}
-		
-		if ( in_array( 'bypostauthor', $classes ) ) {
-			$classes[] = 'bg-success';
 		}		
 		
 		return $classes;

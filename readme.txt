@@ -17,16 +17,18 @@ This is an awesome, full of modern, flat-style, colorful, clean, responsive them
   License URI: https://creativecommons.org/licenses/by/2.0/
 * Other assets copyright see css or js file comments in the head.
 
+
 == Demo ==
 http://demo.wphigh.com/radar/
+
 
 == Documentation ==
 See http://www.wphigh.com/portfolio/radar
 
+
 == Feedback ==
 See http://www.wphigh.com/portfolio/radar
 
-== Changelog ==
 
-* Release in May 8, 2014.
- 
+== Changelog ==
+* 1.0.5 Fixed comments list .bypostauthor background-color. 

@@ -209,7 +209,7 @@ body {
 
 .featured-image img:hover {
 	opacity: 0.8;
-	filter: Alpha( opacity = 80 );	
+	filter: Alpha( opacity = 80 );
 }
 
 .entry-post {

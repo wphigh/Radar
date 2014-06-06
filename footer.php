@@ -15,8 +15,6 @@
 
 			<?php get_sidebar( 'footer' ); ?>
 			
-			<hr>
-			
 			<div class="site-info container small text-muted">
 				<div class="pull-left"><?php do_action( WHTHEME_DOMAIN . '_credits' ); ?></div>
 				<div class="pull-right"><?php _e( 'Theme created by', WHTHEME_DOMAIN ); ?> <em><a class="text-muted" href="http://www.wphigh.com" target="_blank">Wphigh</a></em></div>

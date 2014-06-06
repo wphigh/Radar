@@ -112,6 +112,8 @@ jQuery( document ).ready(function( $ ) {
 	
 	$( '.no-comments, .comment-awaiting-moderation' ).addClass( 'text-danger' );
 	
+	$( '.comment-list .bypostauthor > .comment-body' ).addClass( 'bg-success' );
+	
 
 	/**
 	 * Arrange footer widgets vertically.
